@@ -1,0 +1,9 @@
+reposOfResults : reposOfResults
+
+DataIngestion :
+  root_dir: reposOfResults
+  source_url: https://github.com/Asametmete/datasets/raw/refs/heads/master/textSumDataset.zip
+  local_data_dir: reposOfResults
+  file_path_unzip_dataset: reposOfResults/TextSumDataset.zip
+  unziped_dir: reposOfResults/DataIngestion
+

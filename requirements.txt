@@ -1,0 +1,12 @@
+transformers
+transformers[sentencepiece]
+rouge_score
+pandas
+numpy
+matplotlib
+nltk
+pyYAML
+tensorflow
+notebook
+scikit-learn
+

@@ -7,3 +7,18 @@ DataIngestion :
   file_path_unzip_dataset: reposOfResults/TextSumDataset.zip
   unziped_dir: reposOfResults/DataIngestion
 
+DataProcessing :
+  root_dir: reposOfResults/DataProcessing
+  raw_train_data_dir: reposOfResults/DataIngestion/cnn_dailymail/train.csv
+  raw_test_data_dir: reposOfResults/DataIngestion/cnn_dailymail/test.csv
+  raw_validation_data_dir: reposOfResults/DataIngestion/cnn_dailymail/validation.csv
+  train_dir: reposOfResults/DataProcessing/TrainFolder
+  test_dir: reposOfResults/DataProcessing/TestFolder
+  validation_dir: reposOfResults/DataProcessing/ValidationFolder
+
+ModelTraining:
+  root_dir: reposOfResults/Model
+  train_dir: reposOfResults/DataProcessing/TrainFolder
+  test_dir: reposOfResults/DataProcessing/TestFolder
+  validation_dir: reposOfResults/DataProcessing/ValidationFolder
+  model_save_dir: reposOfResults/Model/ModelFolder

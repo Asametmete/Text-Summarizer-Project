@@ -9,4 +9,5 @@ pyYAML
 tensorflow
 notebook
 scikit-learn
-
+datasets
+pyarrow
